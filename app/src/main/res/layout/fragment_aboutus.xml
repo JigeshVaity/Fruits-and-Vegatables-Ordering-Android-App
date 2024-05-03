@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AboutusFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="In an era marked by fast-paced lifestyles and increasing health consciousness, access to fresh and nutritious fruits and vegetables has become more critical than ever. The Fruits and vegetables Selling app is designed to bridge the gap between consumers and the bounty of nature, offering a convenient and efficient platform for buying and selling fresh produce.
+To ensure trust and safety, the app implements robust authentication, payment security, and review systems. Users can rate and review their shopping experiences, fostering a sense of community and accountability within the platform.
+"
+        android:textSize="18dp"
+        android:textColor="@color/black"
+        android:padding="20dp"
+        android:layout_gravity="center"
+
+        />
+
+</FrameLayout>

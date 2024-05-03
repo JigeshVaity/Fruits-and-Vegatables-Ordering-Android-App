@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "691649922689",
+    "project_id": "typrojectyash",
+    "storage_bucket": "typrojectyash.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:691649922689:android:224b39f22cc4016248ef80",
+        "android_client_info": {
+          "package_name": "com.example.fruits"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCRCk5aDVHe8B6VAiGAWsHF0yINF6oJ5o4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

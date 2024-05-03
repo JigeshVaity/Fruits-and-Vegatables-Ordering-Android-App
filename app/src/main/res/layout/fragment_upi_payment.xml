@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".UPIPaymentFragment"
+
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="UPI TYPE"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:textSize="16dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginStart="25dp"
+        />
+    <Spinner
+        android:id="@+id/inputupitype"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_marginStart="25dp"
+        android:layout_marginEnd="25dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/spinner_background"
+        android:padding="12dp"
+
+        />
+
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="UPI ID"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:textSize="16dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginStart="25dp"
+        />
+    <EditText
+        android:id="@+id/inputcardholdername"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="John hermandez"
+        android:textColor="@color/black"
+        android:textSize="16dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginStart="25dp"
+        android:layout_marginEnd="25dp"
+        android:background="@drawable/edit_text_background"
+        android:padding="12dp"
+        />
+
+
+    <Button
+        android:id="@+id/paynow"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Pay now"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:elevation="5dp"
+        android:background="@drawable/btnbox"
+        android:layout_marginTop="40dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="10dp"
+        />
+
+</LinearLayout>

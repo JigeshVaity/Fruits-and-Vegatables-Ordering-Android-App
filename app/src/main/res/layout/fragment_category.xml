@@ -1,0 +1,231 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fruitpage.CategoryFragment"
+
+   >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:background="@color/light"
+            android:layout_height="80dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:fontFamily="sans-serif-black"
+                    android:text="Categories"
+                    android:textAllCaps="true"
+                    android:layout_marginTop="20dp"
+                    android:textColor="@color/black"
+                    android:textSize="30sp" />
+
+
+            </LinearLayout>
+
+
+
+        </RelativeLayout>
+
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="190dp">
+
+            <RelativeLayout
+                android:id="@+id/spring"
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginEnd="20dp"
+                android:layout_marginBottom="20dp"
+                android:background="#FFC0CB">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textStyle="bold"
+                    android:padding="25dp"
+                    android:text="Spring"
+                    android:textColor="#242425"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginLeft="80dp"
+                    android:textSize="40sp" />
+
+
+
+            </RelativeLayout>
+
+            <ImageView
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:src="@drawable/brocollibg"
+                android:layout_marginTop="-30dp"
+                android:layout_marginEnd="-30dp"
+                android:layout_alignParentRight="true"/>
+
+        </RelativeLayout>
+
+
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="190dp">
+
+            <RelativeLayout
+                android:id="@+id/summar"
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginEnd="20dp"
+                android:layout_marginBottom="20dp"
+                android:background="#C9F3D774">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textStyle="bold"
+                    android:padding="25dp"
+                    android:text="Summar"
+                    android:textColor="#242425"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginLeft="70dp"
+                    android:textSize="40sp" />
+
+
+
+
+
+            </RelativeLayout>
+
+            <ImageView
+                android:layout_width="150dp"
+                android:layout_height="100dp"
+                android:src="@drawable/mango1"
+                android:layout_marginTop="-10dp"
+                android:layout_marginEnd="-25dp"
+                android:layout_alignParentRight="true"/>
+
+        </RelativeLayout>
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="190dp">
+
+            <RelativeLayout
+                android:id="@+id/autumn"
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginEnd="20dp"
+                android:layout_marginBottom="20dp"
+                android:background="#80FF9800">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textStyle="bold"
+                    android:padding="25dp"
+                    android:text="Autumn"
+                    android:textColor="#242425"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginLeft="75dp"
+                    android:textSize="40sp" />
+
+
+
+
+            </RelativeLayout>
+
+            <ImageView
+                android:layout_width="150dp"
+                android:layout_height="100dp"
+                android:src="@drawable/sweet"
+                android:layout_marginTop="-0dp"
+                android:layout_marginEnd="-15dp"
+                android:layout_alignParentRight="true"/>
+
+        </RelativeLayout>
+
+
+
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="190dp">
+
+            <RelativeLayout
+                android:id="@+id/winter"
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginEnd="20dp"
+                android:layout_marginBottom="20dp"
+                android:background="#F3E8D7">
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textStyle="bold"
+                    android:padding="25dp"
+                    android:text="Winter"
+                    android:textColor="#242425"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginLeft="90dp"
+                    android:textSize="40sp" />
+
+
+
+
+            </RelativeLayout>
+
+            <ImageView
+                android:layout_width="130dp"
+                android:layout_height="155dp"
+                android:src="@drawable/pineapple"
+                android:layout_marginTop="-35dp"
+                android:layout_marginEnd="-10dp"
+                android:layout_alignParentRight="true"/>
+
+        </RelativeLayout>
+
+
+
+        </LinearLayout>
+        </ScrollView>
+
+        </LinearLayout>
+
+
+</RelativeLayout>
